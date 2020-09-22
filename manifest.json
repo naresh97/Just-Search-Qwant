@@ -22,5 +22,15 @@
     },
     "omnibox": {
         "keyword": "q"
-    }
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.qwant.com/*"
+            ],
+            "css": [
+                "css/no-popin.css"
+            ]
+        }
+    ]
 }
